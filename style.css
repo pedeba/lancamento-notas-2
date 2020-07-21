@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+td {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: monospace;
+    color: #FFC23C;
+    letter-spacing: .1em;
+    margin-bottom: 20px;
+}
+body {
+    background: #FAF6ED;
+}
+.header {
+    display: grid;
+    grid-template-columns: 1fr 150px 810px 1fr;
+    grid-gap: 20px;
+}
+
+.img-menu {
+    grid-column: 2/3;
+}
+
+.menu-nav {
+    grid-column: 3/5;
+    background: #0442BF;
+    height: 20px;
+    margin-top: 40px;
+    padding: 20px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.699);
+    
+}
+
+.menu-nav ul {
+    display: flex;
+}
+
+.menu-nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFC23C;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 5px;
+    letter-spacing: .1em;
+}
+
+.menu-nav a:hover {
+    text-decoration: underline;
+}
+
+.menu-nav .selecionado {
+    background: #FFC23C;
+    color: #0476D9;
+}
+
+.notas {
+    background: #044BD9;
+    padding: 40px 0;
+    width: 960px;
+    margin: 0 auto;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.699);
+    margin-bottom: 40px;
+}
+
+.notasc {
+    max-width: 930px;
+    margin: 0 auto;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #FAF6ED;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-family: monospace;
+    color: #FFC23C;
+    background: none;
+    border: 3px solid #FFC23C;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 30px;
+    letter-spacing: .1em;
+    outline: none;
+}
+
+.btn:hover {
+    color: #F0743E;
+    border: 3px solid #F0743E;
+    transition: 0.5s;
+}
+
+.esconde {
+    display: none;
+}
+.aluno-destaque {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px 0;
+    background: #044BD9;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.699);
+}
+
+.aluno-destaque p {
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFC23C;
+    padding: 0 30px;
+}
+
+
+
+.footer {
+   background: #00349c;
+   padding: 30px;
+   margin-top: 60px;
+}
+
+.footer p {
+    font-family: monospace;
+    color: #FFC23C;
+    font-size: 14px;
+    width: 960px;
+    margin: 0 auto;
+}
